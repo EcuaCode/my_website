@@ -140,6 +140,7 @@ a.nav-link{
     background-color: rgba(255, 255, 255, 0.98);
 }
 #about {
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
