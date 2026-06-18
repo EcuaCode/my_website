@@ -82,5 +82,56 @@ a.nav-link{
 .servicesIcon {
     font-size: 36px;
 }
+.certifications-hero {
+    min-height: 55vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url('images/cert-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
 
-4:08 PM
+.certifications-hero h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 0 0 20px black;
+}
+
+.certifications-list {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.certification-card {
+    height: 100%;
+    text-align: center;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.certification-card .card-body {
+    padding: 32px;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    color: #0d6efd;
+}
+
+@media screen and (max-width: 768px) {
+    .certifications-hero {
+        min-height: 45vh;
+    }
+
+    .certifications-hero h1 {
+        font-size: 2.8rem;
+    }
+}
+
+
