@@ -69,3 +69,18 @@ a.nav-link{
 .navbarScroll.navbarDark {
     background-color:gray;
 }
+.certifications-page {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.certification-card {
+    height: 100%;
+    text-align: center;
+}
+
+.servicesIcon {
+    font-size: 36px;
+}
+
+4:08 PM
