@@ -19,6 +19,7 @@ a.nav-link{
 
 .bgimage {
     min-height: 100vh;
+    padding-top: 80px;
     background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/background.jpg');
     background-size: cover;
     background-position: center;
